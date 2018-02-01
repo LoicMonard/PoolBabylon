@@ -10,8 +10,8 @@ declare module BABYLON {
          * Constructor
          */
         constructor();
-        setupActions(cube: Mesh): void;
-        setupPhysics(cube: Mesh): void;
+        setupActions(ball: Mesh): void;
+        setupPhysics(ball: Mesh): void;
         /**
          * Runs the engine to render the scene into the canvas
          */
